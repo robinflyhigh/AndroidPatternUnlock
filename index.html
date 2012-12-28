@@ -26,46 +26,70 @@
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">e-Resume</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a target="_blank" href="http://robinsingh.name/e-resume/">e-Resume</a></li>
+          <li><a target="_blank" href="http://robinsingh.name/contact-me/">Contact</a></li>
         </ul>
-        <h3 class="muted">Android Pattern Unlock</h3>
+        <h3 class="muted">Android Pattern Unlock - Flipkart Test</h3>
       </div>
 
       <hr>
 
 		<!-- Android HTML Starts Here-->
-		<div class="container">
-			<div class="row">
-				<div class="offset2 span3">
-					<div class="well">
-						<div class="row">
-							<div id="1" class="circle"><div class="circle-small"></div></div>
-							<div id="2" class="circle"><div class="circle-small"></div></div>
-							<div id="3" class="circle"><div class="circle-small"></div></div>
-						</div>
-						<div class="row">
-							<div id="4" class="circle"><div class="circle-small"></div></div>
-							<div id="5" class="circle"><div class="circle-small"></div></div>
-							<div id="6" class="circle"><div class="circle-small"></div></div>
-						</div>
-						<div class="row">
-							<div id="7" class="circle"><div class="circle-small"></div></div>
-							<div id="8" class="circle"><div class="circle-small"></div></div>
-							<div id="9" class="circle"><div class="circle-small"></div></div>
-						</div>
+		<div class="row">
+			<div class="offset1 span3">
+				<div class="well">
+					<div class="row">
+						<div id="1" class="circle"><div class="circle-small"></div></div>
+						<div id="2" class="circle"><div class="circle-small"></div></div>
+						<div id="3" class="circle"><div class="circle-small"></div></div>
+					</div>
+					<div class="row">
+						<div id="4" class="circle"><div class="circle-small"></div></div>
+						<div id="5" class="circle"><div class="circle-small"></div></div>
+						<div id="6" class="circle"><div class="circle-small"></div></div>
+					</div>
+					<div class="row">
+						<div id="7" class="circle"><div class="circle-small"></div></div>
+						<div id="8" class="circle"><div class="circle-small"></div></div>
+						<div id="9" class="circle"><div class="circle-small"></div></div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- Android HTML Ends Here-->
 
-		<input type="hidden" name="" value="" id="pattern">
+		<div class="row">
+			<div class="offset1 span5">
+				<div class="alert" id="answer">
+				</div>
+			</div>
+		</div>
+
+		<form class="form-horizontal">
+			<div class="control-group">
+				<label class="control-label" for="inputEmail">Current Pattern</label>
+				<div class="controls"><input class="input-small" type="text" name="" value="" id="current-pattern" disabled="disabled"></div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="inputEmail">Final Pattern</label>
+				<div class="controls">
+					<input class="input-small" type="text" name="" value="" id="final-pattern" disabled="disabled">
+					<button class="btn" type="button" onClick="FlipKart.savePattern();">Save</button>
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="inputEmail">Saved Pattern</label>
+				<div class="controls">
+					<input class="input-small" type="text" name="" value="" id="saved-pattern" disabled="disabled">
+					<button class="btn" type="button" onClick="FlipKart.unsavePattern();">Reset</button>
+				</div>
+			</div>
+		</form>
       
       <hr>
 
       <div class="footer">
-        <p>@robinflyhigh</p>
+        <p><a target="_blank" href="https://twitter.com/robinflyhigh">@robinflyhigh</a></p>
       </div>
 
     </div> <!-- /container -->
