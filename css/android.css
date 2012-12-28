@@ -33,3 +33,27 @@ margin: 60px 0;
 .marketing p + h4 {
 margin-top: 28px;
 }
+.circle{
+	background-color: #CCCCCC;
+    border-radius: 50px 50px 50px 50px;
+    float: left;
+    height: 50px;
+    margin-right: 20px;
+    width: 50px;
+}
+.circle-small{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background-color:#999;
+	margin: 15px 0 0 15px;
+	float:left;
+}
+.row .circle:first-child{
+	margin-left: 50px;
+}
+.well .row{
+	margin-bottom:20px;
+}
