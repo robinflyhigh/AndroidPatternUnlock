@@ -1,4 +1,6 @@
-This was a test give to me by a leading E-Commerce company in India which I fixed it in 5 hours. Did not complete it 100% but learnt a lot as always.
+This was a test give to me by a leading E-Commerce company in India which I fixed it in 5 hours.
+
+Demo can be found @ http://android-pattern-unlock.herokuapp.com/
 
 References Used:
 
